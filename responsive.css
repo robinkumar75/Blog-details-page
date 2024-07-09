@@ -1,8 +1,15 @@
 @media (max-width: 360px) {
+  .Breadcrumb-section {
+    width: 100%;
+    height: 50px;
+    background-color: #fdf8f7;
+    display: flex;
+    justify-content: flex-start;
+  }
+
   .Breadcrumb-link-box {
     width: 312px;
-    border: 1px solid black;
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .home {
@@ -40,19 +47,21 @@
 
   .post-description-main-section {
     width: 100%;
-    height: 3542px;
+    height: 3742px;
   }
 
   .post-description-inner-section {
     width: 100%;
-    height: 3542px;
+    height: 3742px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .post-discription {
-    width: 100%;
+    width: 312px;
+    height: 3642px;
+
     margin-top: 24px;
   }
 
@@ -87,5 +96,209 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 18px;
+  }
+
+  .post-writen-section{
+    height: 3500px;
+  }
+
+  .intorduction-section {
+    height: 250px;
+    margin-top: 24px;
+    
+  }
+
+  .Chronic-Pain-section {
+    height: 572px;
+    margin-top: 24px;
+    
+  }
+
+  .cancer-section {
+    height: 220px;
+    margin-top: 24px;
+    
+  }
+
+  .hearing-loss-section {
+    height: 540px;
+    margin-top: 24px;
+   
+  }
+
+
+  .Loss-of-Appetite-section {
+    height: 310px;
+    margin-top: 24px;
+    
+  }
+
+  .Nutrition-in-Senior-Dogs-section {
+    height: 400px;
+    margin-top: 24px;
+  }
+
+  .section-underline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .line {
+    width: 300px;
+    color: #b9b7b7;
+  }
+}
+
+@media (max-width: 576px) {
+
+  .Breadcrumb-section {
+    width: 100%;
+    height: 50px;
+    background-color: #fdf8f7;
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+  .Breadcrumb-link-box {
+    width: 312px;
+    /* margin-left: 10px; */
+  }
+
+  .home {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 0;
+  }
+
+  .blog {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 0;
+  }
+
+  .icon {
+    width: 18px;
+    height: 15px;
+    margin-top: 8px;
+  }
+
+  .about {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    padding: 0;
+  }
+
+
+
+  .short-post-post-description {
+    display: none;
+  }
+
+  .post-description-main-section {
+    width: 100%;
+    height: 3742px;
+  }
+
+  .post-description-inner-section {
+    width: 100%;
+    height: 3742px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .post-discription {
+    width: 312px;
+    height: 3642px;
+    margin-top: 24px;
+  }
+
+  .post-title-post-image-section {
+    width: 312px;
+  }
+
+  .post-title {
+    height: 60px;
+    margin-bottom: 16px;
+  }
+
+  .post-title h1 {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  .post-writen-section h2 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 22px;
+  }
+
+  .back-at-top-link {
+    height: 18px;
+    text-align: center;
+    margin-top: 24px;
+  }
+
+  .back-at-top-link p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+
+  .post-writen-section{
+    height: 3500px;
+  }
+
+  .intorduction-section {
+    height: 250px;
+    margin-top: 24px;
+    
+  }
+
+  .Chronic-Pain-section {
+    height: 572px;
+    margin-top: 24px;
+    
+  }
+
+  .cancer-section {
+    height: 220px;
+    margin-top: 24px;
+    
+  }
+
+  .hearing-loss-section {
+    height: 540px;
+    margin-top: 24px;
+   
+  }
+
+
+  .Loss-of-Appetite-section {
+    height: 310px;
+    margin-top: 24px;
+    
+  }
+
+  .Nutrition-in-Senior-Dogs-section {
+    height: 400px;
+    margin-top: 24px;
+  }
+
+  .section-underline {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .line {
+    width: 300px;
+    color: #b9b7b7;
   }
 }
