@@ -350,10 +350,10 @@
 }
 
 .post-description-inner-section {
-  width: 95%;
+  width: 90%;
   height: 3735px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
 }
 
 .post-discription {
@@ -530,6 +530,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin-top: 80px;
+  margin-left: 10px;
 }
 
 .short-post-card {
@@ -552,7 +553,7 @@
 
 .short-post-card-text-section {
   width: 352px;
-  height: 208px;
+  height: 220px;
   margin-top: 16px;
 }
 
