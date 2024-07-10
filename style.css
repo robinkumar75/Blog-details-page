@@ -560,8 +560,8 @@
 
 .read-more-link {
   width: 100px;
-  /* height: 25px; */
-  text-align: center;
+  height: 25px;
+  /* text-align: center; */
   margin-top: 16px;
 }
 
